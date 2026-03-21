@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Habit Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Habit Tracker</h1>
+
+<p id="longestStreak">🔥 Longest streak: 0 days</p>
+
+<div class="habit-form">
+
+<input id="habitInput" placeholder="Add a new habit...">
+
+<button onclick="addHabit()">Add Habit</button>
+
+</div>
+
+<div class="progress-box">
+
+<p id="progressText">0 / 0 habits completed today</p>
+
+<div class="progress-bar">
+<div id="progressFill"></div>
+</div>
+
+<p id="motivationMessage"></p>
+
+</div>
+
+<ul id="habitList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
